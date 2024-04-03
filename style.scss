@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 1rem;
+    background: rgba(240, 12, 50, 0.697);
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.employee-board-container {
+    background: #333;
+    color: #fff;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .employee-list-container {
+        width: 70%;
+        margin: auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+
+        .search-bar-container {
+            width: 100%;
+            margin: auto;
+
+            input {
+                width: 93%;
+                padding: 1rem;
+                border-radius: 20px 0 0 20px;
+                outline: none;
+                border: none;
+            }
+
+            button {
+                padding: 1rem;
+                border-radius: 0 20px 20px 0;
+                background: rgba(240, 12, 50, 0.796);
+                color: white;
+                outline: none;
+                border: none;
+
+            }
+        }
+
+        .search-results {
+            text-align: left;
+            border-radius: 20px;
+            border: 1px solid rgba(240, 12, 50, 0.796);
+            background: #fff;
+
+            p{
+                padding: .75rem 1rem;
+                color: #333;
+            }
+        }
+
+        .selected-employees {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+            padding-block: 1rem;
+
+            .selected-employees-item {
+                width: 30%;
+                padding: .5rem 2rem;
+                border: 1px solid #fff;
+                border-radius: 20px;
+
+                p {
+                    text-align: left;
+                    padding-block: .2rem;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+    .employee-form {
+        background: #fff;
+        position: absolute;
+        top: 60%;
+        width: 65%;
+        padding: 1.5rem 3rem;
+        border-radius: 20px;
+        display: none;
+        &.active{
+            display: block;
+        }
+
+        .border-warn #phone, .border-warn #email{
+            border: 1px solid red !important;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+        
+            .form-container {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 1rem;
+                justify-content: space-between;
+        
+                .first-name,
+                .last-name {
+                    width: 45%;
+                }
+        
+                .email,
+                .phone,
+                .job-title {
+                    width: 28%;
+                }
+        
+                input {
+                    border-radius: 20px;
+                    border: 1px solid #333;
+                    width: 100%;
+                    padding: 1rem;
+                }
+               
+            }
+        
+            button {
+                padding: 1rem;
+                background: rgba(240, 12, 50, 0.697);
+                color: white;
+                outline: none;
+                border: none;
+                border-radius: 20px;
+            }
+        }
+
+    }
+
+    #newUserButton {
+        border-radius: 20px;
+        position: absolute;
+        top: 90%;
+        z-index: 9;
+    }
+
+    .popup-content {
+        position: absolute;
+        top: 10%;
+        left: 80%;
+        border-radius: 20px;
+        border: 1px;
+        display: none;
+        &.active{
+            display: block;
+        }
+    }
+
+}

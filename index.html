@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script type="text/javascript" src="https://unpkg.com/xlsx@0.15.1/dist/xlsx.full.min.js"></script>
+</head>
+<body>
+    <section class="employee-board-container">
+        <div class="employee-list-container">
+            <div class="search-bar-container">
+                <input type="text" placeholder="Search for a user..." id="searchInput">
+                <button id="goButton">Go</button>
+            </div>
+
+
+            <!-- Search results -->
+            <div class="search-results" id="results"></div>
+
+            <!-- Selected employees -->
+            <div class="selected-employees" id="userDetails"></div>
+        </div>
+        <div class="employee-form" id="userFormContainer">
+            <form id="addUserForm">
+
+                <div class="form-container">
+                    <div class="employee-form-item first-name">
+                        <input type="text" id="firstName" name="firstName" placeholder="Susan" required>
+                    </div>
+
+                    <div class="employee-form-item last-name">
+                        <input type="text" id="lastName" name="lastName" placeholder="Kim" required>
+                    </div>
+
+                    <div class="employee-form-item job-title">
+                        <input type="text" id="jobTitle" name="jobTitle" placeholder="Developer" required />
+                    </div>
+
+                    <div class="employee-form-item phone">
+                        <input type="number" id="phone" name="phone" placeholder="07775 357959" required />
+                    </div>
+
+                    <div class="employee-form-item email">
+                        <input type="email" id="email" name="email" placeholder="skim@text.com" required />
+                    </div>
+                </div>
+                <button type="submit">Add User</button>
+            </form>
+        </div>
+        <button id="newUserButton">New User *</button>
+        <div class="popup">
+            <button class="popup-content">
+                New user added! X
+            </button>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>
+

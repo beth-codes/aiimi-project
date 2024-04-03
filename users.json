@@ -1,0 +1,140 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "firstName": "David",
+      "lastName": "Jones",
+      "jobTitle": "Developer",
+      "phoneNumber": "07789 543768",
+      "email": "djones@test.com"
+    },
+    {
+      "id": "2",
+      "firstName": "Lisa",
+      "lastName": "Holmes",
+      "jobTitle": "Development Lead",
+      "phoneNumber": "07756 896512",
+      "email": "lholmes@test.com"
+    },
+    {
+      "id": "3",
+      "firstName": "Alex",
+      "lastName": "Smith",
+      "jobTitle": "QA Lead",
+      "phoneNumber": "07723 743289",
+      "email": "asmith@test.com"
+    },
+    {
+      "id": "4",
+      "firstName": "Kieran",
+      "lastName": "James",
+      "jobTitle": "Developer",
+      "phoneNumber": "07898 654123",
+      "email": "kjames@test.com"
+    },
+    {
+      "id": "5",
+      "firstName": "Gavin",
+      "lastName": "Miles",
+      "jobTitle": "UX Designer",
+      "phoneNumber": "07881 987554",
+      "email": "gmiles@test.com"
+    },
+    {
+      "id": "6",
+      "firstName": "Kathy",
+      "lastName": "Smith",
+      "jobTitle": "UX Lead",
+      "phoneNumber": "07765 332287",
+      "email": "ksmith@test.com"
+    },
+    {
+      "id": "7",
+      "firstName": "Phil",
+      "lastName": "Walker",
+      "jobTitle": "Senior QA",
+      "phoneNumber": "07889 984447",
+      "email": "pwalker@test.com"
+    },
+    {
+      "id": "8",
+      "firstName": "Rebecca",
+      "lastName": "Bates",
+      "jobTitle": "Product Development Manager",
+      "phoneNumber": "07798 548733",
+      "email": "rbates@test.com"
+    },
+    {
+      "id": "9",
+      "firstName": "Hayley",
+      "lastName": "Walker-Smith",
+      "jobTitle": "Developer",
+      "phoneNumber": "07888 932145",
+      "email": "hwalker@test.com"
+    },
+    {
+      "id": "10",
+      "firstName": "Alexis",
+      "lastName": "Crawley",
+      "jobTitle": "DevOps Engineer",
+      "phoneNumber": "07798 548733",
+      "email": "rbates@test.com"
+    },
+    {
+      "id": "11",
+      "firstName": "David",
+      "lastName": "Gold",
+      "jobTitle": "DevOps Engineer",
+      "phoneNumber": "07778 667412",
+      "email": "acrawley@test.com"
+    },
+    {
+      "id": "12",
+      "firstName": "Phillipa",
+      "lastName": "Walker",
+      "jobTitle": "QA Lead",
+      "phoneNumber": "07775 357951",
+      "email": "pwalker2@test.com"
+    },
+    {
+      "id": "5e33",
+      "firstName": "Elizabeth",
+      "lastName": "Adegunwa",
+      "jobTitle": "front-e",
+      "phoneNumber": "0773352781",
+      "email": "adegunwaanu@gmail.com"
+    },
+    {
+      "id": "e718",
+      "firstName": "Elizabeth",
+      "lastName": "Adegunwa",
+      "jobTitle": "Full stack Developer",
+      "phoneNumber": "0773352781",
+      "email": "adegunwaanu@gmail.com"
+    },
+    {
+      "id": "ec42",
+      "firstName": "Elizabeth",
+      "lastName": "Adegunwa",
+      "jobTitle": "front-e",
+      "phoneNumber": "0773352781",
+      "email": "adegunwaanu@gmail.com"
+    },
+    {
+      "id": "b4f0",
+      "firstName": "Elizabeth",
+      "lastName": "Adegunwa",
+      "jobTitle": "frnte",
+      "phoneNumber": "0773352781",
+      "email": "adegunwaanu@gmail.com"
+    },
+    {
+      "id": "01ee",
+      "firstName": "Elizabeth",
+      "lastName": "Adegunwa",
+      "jobTitle": "front-end developer",
+      "phoneNumber": "0773352781",
+      "email": "adegunwaanu@gmail.com"
+    }
+  ]
+}
