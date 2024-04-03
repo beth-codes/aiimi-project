@@ -31,7 +31,7 @@ async function searchUsers() {
     const searchInput = document.getElementById('searchInput').value.trim().toLowerCase();
 
     try {
-        const response = await fetch(`http://localhost:3000/users`);
+        const response = await fetch(`https://aiimi.azurewebsites.net/users`);
         const data = await response.json();
 
         // Filter the data based on the search input
@@ -128,7 +128,7 @@ document.getElementById('addUserForm').addEventListener('submit', async function
 
     try {
         // Send user data to the mock service for adding
-        const response = await fetch('http://localhost:3000/users', {
+        const response = await fetch('hhttps://aiimi.azurewebsites.net/users', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
